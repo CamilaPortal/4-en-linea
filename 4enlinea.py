@@ -45,7 +45,7 @@ class TestGame(unittest.TestCase):
         game.change_turn()
         self.assertEqual(game.current_turn, 2)
     
-    def test_calculate_position(self):
+    def est_calculate_position(self):
         game=Game()
         game.calculte_position(1)
         self.assertEqual(game.board[0][1],1)
